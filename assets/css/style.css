@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.Clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+}
+
+main{
+    padding-top: 2%;
+}
+
+.Title{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.Title h1{
+    color: deeppink;
+    font-size: 70px;
+}
+
+.Title p{
+    padding: 2%;
+    font-size: 20px;
+}
+
+.colonna h2, h3{
+    margin: 2%;
+    font-size: 20px;
+    padding-left: 6%;
+    color: white;
+}
+
+.colonna{
+    background-color: black;
+    width: calc(100% / 3 - 100px);
+    float: left;
+    margin: 50px;
+}
+
+img{
+    height: 140px;
+    float: left;
+}
+
+.email{
+    color: aqua;
+}
